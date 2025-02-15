@@ -1,0 +1,98 @@
+.card__wrapper {
+  /* max-width: 1100px; */
+  margin: 0 60px 35px;
+  padding: 20px 10px;
+  overflow: hidden;
+}
+
+.card__link {
+  width: 400px;
+  border: 2px solid transparent;
+  transition: 0.3s all linear;
+  user-select: none;
+}
+
+.card__link:active {
+  cursor: grabbing;
+}
+
+.card__item {
+  list-style: none;
+}
+
+.card__link:hover {
+  border-color: #5372f0;
+}
+
+.card__image {
+  aspect-ratio: 16/9;
+}
+
+.card__badge {
+  color: #5372f0;
+  background: #dde4ff;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.card__title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.btn-arrow {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0 5px;
+  border: 2px solid #5372f0;
+  color: #5372f0;
+  background: none;
+  cursor: pointer;
+  transform: rotate(-45deg);
+  transition: 0.3s ease;
+}
+
+.card__link:hover .btn-arrow {
+  background: #5372f0;
+  color: white;
+}
+
+.card__badge.card__badge--design {
+  color: #205c20;
+  background: #d6f8d6;
+}
+
+.card__badge.card__badge--market {
+  color: #b25a2b;
+  background: #ffe3d2;
+}
+
+.card__badge.card__badge--editor {
+  color: #b22485;
+  background: #f7dff5;
+}
+
+.card__badge.card__badge--editor {
+  color: #856404;
+  background: #fff3cd;
+}
+
+.card__wrapper .swiper-pagination-bullet {
+  width: 14px;
+  height: 14px;
+  opacity: 0.5;
+  background: #5372f0;
+}
+
+.card__wrapper .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.swiper-slide-button {
+  color: #5372f0;
+  margin-top: -35px;
+}
